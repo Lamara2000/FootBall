@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    android:background="@color/green">
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <item
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_revert"
+        app:showAsAction="always|withText"
+        android:title="TODO" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_launcher_background"
+        app:showAsAction="never"
+        android:title="">
+    </item>
+</menu>
