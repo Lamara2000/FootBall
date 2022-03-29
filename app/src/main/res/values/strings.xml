@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FootBall</string>
+    <!-- Page d'acceuil -->
+    <string name="home_page_title">Match</string>
+    <string name="Resultats">Vos Resultats</string>
+
+    <!-- Page match -->
+    <string name="equipe">Match</string>
+
+    <!-- Page statistique -->
+    <string name="sore_de_matchs">Stats</string>
+
+    <!-- Page score -->
+    <string name="buts">Match_score</string>
+
+    <!-- Page ligues -->
+    <string name="championgnant">Ligues</string>
+
 </resources>
