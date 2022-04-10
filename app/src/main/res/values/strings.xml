@@ -14,6 +14,27 @@
     <string name="buts">Match_score</string>
 
     <!-- Page ligues -->
-    <string name="championgnant">Ligues</string>
+    <string name="championnant">Ligues</string>
+
+    <!-- Page settings -->
+    <string name="title_activity_settings">FootBall</string>
+    <string name="nom">Votre nom</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="nom1">Nom ?</string>
+    <string name="aAvion">Activation du mode avion</string>
+    <string name="mAvion">Mode avion</string>
+    <string name="competition">Compétition</string>
+    <string name="choix">Veuillez choisir une compétition</string>
+    <string name="choixS">Cliquez pour choisir un compétition</string>
+    <string-array name="competitionList">
+        <item>Premier League</item>
+        <item>La Liga</item>
+        <item>Serie A</item>
+        <item>Bundesliga</item>
+        <item>Ligue 1</item>
+        <item>Champions League</item>
+    </string-array>
+
 
 </resources>

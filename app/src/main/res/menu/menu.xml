@@ -4,19 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
     android:background="@color/green">
     <item
-        android:id="@+id/add"
-        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/match"
+        android:icon="@drawable/ic_pngegg"
         app:showAsAction="always"
-        android:title="TODO" />
+        android:title="match" />
     <item
-        android:id="@+id/reset"
-        android:icon="@android:drawable/ic_menu_revert"
+        android:id="@+id/classement"
+        android:icon="@drawable/ic_classement"
+        app:showAsAction="always"
+        android:title="classement" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
         app:showAsAction="always|withText"
-        android:title="TODO" />
-    <item
-        android:id="@+id/about"
-        android:icon="@drawable/ic_launcher_background"
-        app:showAsAction="never"
-        android:title="">
-    </item>
+        android:title="paramètres" />
 </menu>

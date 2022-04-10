@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nom"
+        android:title="@string/nom"
+        android:positiveButtonText="@string/valider"
+        android:negativeButtonText="@string/annuler"
+        android:defaultValue=""
+        android:dialogTitle="@string/nom1"/>
+    <ListPreference
+        android:key="competition"
+        android:title="@string/competition"
+        android:summary="@string/choixS"
+        android:entries="@array/competitionList"
+        android:entryValues="@array/competitionList"
+        android:dialogTitle="@string/choix" />
+    <SwitchPreference
+        android:summary="@string/aAvion"
+        android:key="avion"
+        android:title="@string/mAvion"
+        />
+
+</PreferenceScreen>
