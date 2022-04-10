@@ -3,13 +3,12 @@ package com.example.football;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
-
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.preference.PreferenceFragmentCompat;
+//import androidx.preference.PreferenceFragmentCompat;
 
 public class SettingsActivity extends MainActivity {
-
+/**
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,4 +28,5 @@ public class SettingsActivity extends MainActivity {
             setPreferencesFromResource(R.xml.root_preferences, rootKey);
         }
     }
+**/
 }
